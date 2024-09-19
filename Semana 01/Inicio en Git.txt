@@ -37,6 +37,7 @@ https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Acerca-del
 #Crear ramas (branch)
 17. git chekout -b (rama) #Crear una rama de trabajo paralela y ubicarse en ella.
 	a. git chekout (otra rama) #Cambio de rama
+<<<<<<< HEAD
 18. git branch -d (rama) #Eliminar una rama
 
 #Cabiar el commit
@@ -47,3 +48,6 @@ Donde n es el número de commits hacia atrás desde el HEAD donde se encuentra e
 En el editor que se abre, cambia pick a reword en el commit cuyo mensaje deseas modificar. Luego guarda y cierra el editor.
 Git te pedirá que edites el mensaje del commit. Cambia el mensaje y guarda el archivo.
 22. git push origin master --force
+=======
+18. git branch -d (rama) #Eliminar una rama
+>>>>>>> ede4a6b5ecbb306b4a850afbb5266a23cefe2d47
