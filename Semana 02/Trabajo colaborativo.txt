@@ -24,6 +24,7 @@ Crear un PR (Pull Request) desde GitHub.
 9. git checkout (usuario)
 10. git pull origin (usuario)
 
+
 git pull hace dos cosas: primero obtiene los cambios del repositorio remoto y luego los integra en la rama local.
 
 
